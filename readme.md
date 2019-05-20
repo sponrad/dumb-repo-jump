@@ -20,3 +20,7 @@ Open up a file that is inside a git repository and has a GitHub remote setup and
 - If the file youre in has changes that are not in the remote the file numbers won't match
 - Doesn't work with ssh remotes yet
 - Only tested with GitHub repo
+
+# Inspired by!
+
+[Dumb jump](https://github.com/jacktasia/dumb-jump), I love it and it's philosophy.
