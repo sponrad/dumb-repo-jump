@@ -2,6 +2,8 @@
 
 Quickly open the buffer file in GitHub (ideally elsewhere to) using the name of the local branch, current remote url for the repository, and current line you are at.
 
+![dumb-repo-jump-example](https://github.com/sponrad/dumb-repo-jump/blob/master/dumb-repo-jump.gif)
+
 # Using it
 
 Clone this repo and add something like the following lines to your `.emacs`:
