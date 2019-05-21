@@ -4,7 +4,6 @@ git@github.com:user/repo.git into https://github.com/user/repo"
   (if (string-match "\\(\\w+\\.com\\)\\:\\(\\w+\\/\\w+\\)\\.git" git-origin-url)
       (let* ((site-url (match-string 1 git-origin-url))
              (owner-repo (match-string 2 git-origin-url)))
-        (message "we are in the git side of things...")
         (format "https://%s/%s" site-url owner-repo))
     (replace-regexp-in-string "\\.git$" "" git-origin-url)))
 
